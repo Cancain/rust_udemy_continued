@@ -2,7 +2,8 @@ mod enumerations;
 mod structs;
 mod unions;
 mod option;
+mod arrays;
 
 pub fn run() {
-    option::option();
+    arrays::arrays();
 }
